@@ -1,0 +1,184 @@
+/* Clase para darle estilos al body */
+.cinema-body {
+  background: url(../img/cinema2.jpg);
+  /*background-color: #112233;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;*/
+
+}
+
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background: #082D5E;
+  min-height: 10%;
+  border: none;
+}
+
+/* Clase para darle estilos al contenedor principal */
+.container-fluid {
+  margin-top: 64px;
+}
+
+/* Clase para darle estilos al jumbotron */
+.jumbotron {
+  background: #00678E;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera {
+  min-height: 45px;
+  background: #082D5E;
+}
+
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+.movies-row {
+  background: #00678E;
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Clase para darle estilos a las columnas*/
+.movies-column {
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+/* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 350px;
+  }
+}
+
+.user_data{
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
+  /*text-align: center;*/
+}
+
+.input-element{
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color:red;
+  background-color: #FFFFFF;
+  border-radius: 45px
+  margin-top:5px;
+}
+
+.label-class{
+  color:white;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.btn-save{
+  width=40%;
+  background-color: #aabbcc alpha=0.5;
+  color=white;
+}
+#logotext{
+  color:#518395!important;
+  margin-left: 20px;
+}
+#barraSuperior{
+  background-color: #20343D;
+  margin:auto;
+}
+#barraNavegacion{
+
+background-color: #20343D;
+margin:auto;
+}
+.form-control{
+  height: auto!important;
+}
+#logoMusica{
+  widht:20px;
+}
+.redes-sociales {
+  margin-top: 30px;
+}
+img[id*="imgx"]{width: 48px;}
+
+#contenido{
+  margin: auto;
+  padding: auto;
+  background-color: #518395!important;
+}
+#ContenidoRow{
+  background-color: #518395!important;
+}
+
+#texto1{
+  margin:auto;
+}
+
+#Comentario1{
+  margin-left:5%!important;
+  margin-right: 10%;
+}
+#textoImagen1{
+  margin-left:20px!important;
+}
+img[id*="usuarioIcono"]{
+  margin-top: 20%;
+  width:120%;
+}
+#texto2{
+  color:#efe5ac;
+  margin-right:  2%!important;
+  margin-left: 2%!important;
+  padding: 2%!important;
+
+/*  margin-top:10%;*/
+}
+#imagen2{
+  margin-left:2%!important;
+  margin-right: 2%!important;
+  padding: 2%!important;
+  width:90%!important;
+}
+#tituloTexto2{
+  color:#efe5ac;
+  margin-left: 10%;
+  }
+  #ColumnaDerechaContenido{
+    background-color: blue!important;
+    height: 100%;
+  }
+  #button1{
+    width: 100%!important;
+    height: 75px!important;
+  }
+  #columnaDerechaBusqueda{
+    background-color: #518395!important;
+    height: 100%!important;

@@ -1,0 +1,103 @@
+.borde{
+  padding: 10px;
+  background-color: #838588;
+  border: 1px solid black;
+
+}
+ul{  font-size: 10px;
+  color: black;
+}
+
+.botonBuscar{
+  color:black;
+}
+
+  body {
+      background-image: url(http://www.leroymerlin.es/dms/static/cocinasPremium/images/urano.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: #66999;
+      }
+
+#slogan{
+  color: #01579b;
+}
+#fondo{
+   background-color: rgba(239, 146, 52, 0.8);
+   height: 100%;
+}
+
+#fila1{
+  margin:10px;
+padding: 10px;
+  height: 20%;
+
+}
+
+#filadeBusqueda{
+  margin: auto;
+  padding:auto;
+}
+#ColumnaIzq{
+   background-color: rgba(227, 84, 64, 0.4);
+   margin-left:10px;
+   padding-left: 10px;
+   height: auto;
+}
+#ColumnaDer{
+   background-color: rgba(159, 209, 82, 0.4);
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   padding: 10px;
+}
+
+#imagenContenido1{
+  align-content: center;
+  width:100%;
+  margin:10px;
+
+
+}
+
+#titulo{
+  height: 50px;
+  color:white;
+  font-family: fantasy;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align:left;
+}
+#slogan{
+  height: 20px;
+  width: 100%;
+  color:white;
+  font-family: fantasy;
+  font-size: 1rem;
+margin:10px;
+padding: 10px;
+}
+
+#menu1{
+  color:!important #ff5544;
+  font-size: 20px;
+  text-decoration-color: White;
+}
+
+img[src*="Usuario"]{
+  width:10%;
+}
+h5{
+  font-style: italic;
+}
+
+#Contenido1{
+  margin:10px;
+}
+#historial{
+  font-size: 20px;
+  color:White;
+}

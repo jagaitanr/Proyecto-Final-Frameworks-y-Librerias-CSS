@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <script src='js/bootstrap.min.js'></script>
+    <title>Blog de Música</title>
+  </head>
+  <body class='blog-body'>
+    <div class='row' id="barraSuperior">
+      <img src="img/LogoMusica2.jpg" id="LogoMusica2.jpg"/>
+      <h1 id="logotext">Musiqueros</h1>
+      <div class="row text-center" id="redes">
+      <div class='col xs-6 col-sm-6 col-lg-g'>
+      </div>
+      <div class='col xs-6 col-sm-6 col-lg-g text-center'>
+        <button class="btn-primary">
+        <img class='img-rounded img-social' src='img/fb.png'/></button>
+        <button class="btn-primary">
+        <img class='img-rounded img-social' src='img/ig.png'/></button>
+        <button class="btn-primary">
+        <img class='img-rounded img-social' src='img/tt.png'/></button>
+        <button class="btn-primary">
+        <img class='img-rounded img-social' src='img/instagram.jpg' id="imgx_instagram"/></button>
+        <button class="btn-primary">
+        <img class='img-rounded img-social' src='img/pinterest.png'id="imgx_pinterest"/></button>
+        <button class="btn-primary">
+        <img class='img-rounded img-social' src='img/youtube.jpg'id="imgx_youtube"/></button>
+
+      </div>
+    </div>
+      <section>
+        <div class="row" id="barraNavegacion"style="background-color:#518395">
+          <nav class="navbar  bg-dark  btn btn-default form-control "  >
+          <ul class="navbar-nav mr-auto  form-control list-unstyled" style="background-color:#20343D" id="contenedorUl">
+            <div class="col-md-2" style="background-color:#20343D">
+              <li class="nav-item active">
+              <a  href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            </div>
+            <div class="col-md-2" style="background-color:#20343D">
+              <li class="nav-item">
+              <a class="nav-link" href="#">canciones</a>
+              </li>
+            </div>
+            <div class="col-md-2" style="background-color:#20343D">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    artistas
+                  </a>
+                </li>
+              </div>
+              <div class="col-md-2 " style="background-color:#20343D">
+                  <li class="nav-item">
+                  <a class="nav-link disabled" href="#">generos</a>
+                </li>
+              </div>
+                <div class="col-md-2 " style="background-color:#20343D">
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#">compositores</a>
+                  </li>
+                </div>
+                <div class="col-md-2" style="background-color:#20343D">
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#">comentarios</a>
+                  </li>
+                </div>
+            </ul>
+            </nav>
+          </div><!--barra de navegación-->
+        </section>
+      </div><!--barra barraSuperior-->
+      <container id= "contenido">
+        <div class="row" id="ContenidoRow">
+          <div class="col-md-8" id="columnIzquierdaContenido">
+            <div class="row" id="sección1" style="background-color: #efe5ac">
+            <div class="row"  id="textoImagen1">
+              <div class="col-md-6 "  id="texto1">
+                <h1>Silvio Rodriguez</h1>
+                En el arte musical está integrado desde siempre el imaginario poético, constituyéndose en
+                un movimiento de cambios y transformaciones aceleradas en toda América Latina. El arte
+                es dialéctica pura, unidad y lucha de contrarios, negación y cambios. La política, la
+                economía, el poder y el pensamiento artístico se constituyen en un solo cuerpo. En la
+                década de los sesenta y setenta, a través de la voz y composiciones de Silvio Rodríguez,
+                cantautor de origen cubano, se hace posible la sonoridad de las voces que en silencio se
+                orquestaban a través de la Trova Cubana, cabe aclarar que la Trova es un estilo musical
+                medieval, es música con poesía, narran una historia de amor, hacen critica o tienen un
+                trasfondo político
+              </div><!--texto1-->
+              <div class="col-md-6" id="imagen1">
+                <img src="img/Silvio.jpg" alt="Silvio Rodriguez" class="img-rounded"/>
+              </div><!--imagen1-->
+            </div><!--textoImagen1-->
+            <div class="row" id="Comentario1" style="background-color: #efe5ac">
+              <div class="col-xs-2" id="img-usuario">
+                <img src="img/Usuario-Icono.jpg" class="img-rounded" id="usuarioIcono"/>
+              </div>
+              <div class="col-xs-10">
+              <div class="form-group">
+                <label for="Nombre">Comentarios:</label>
+                <textarea name="comentario" ROWS="4" cols"25" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="button" name="boton" value="enviar" class="btn btn-default"></input>
+              </div>
+            </div>
+            </div><!--Comentario1-->
+          </div><!--seccion1-->
+          <div class="row" id="sección2" style="background-color: #0f013c">
+          <div class="row" id="textoImagen2">
+            <h1 id="tituloTexto2">   ¿Porqué le llaman Salsa a la Salsa?</h1>
+            <div class="col-md-4">
+                <img src="img/images.jpg" class="img-rounded"  id="imagen2" />
+              </div><!--imagen2-->
+              <div class="col-md-7 text-justify" id="texto2" title="contenido">
+                Sobre el origen del termino "Salsa" hay mil teorías, aunque ninguna probada como absolutamente cierta. La más aceptada data de 1933, cuando Ignacio Piñeiro utilizara por primera vez el término, en un tema del son cubano titulado «Échale Salsita» . Pero no es sino hasta los años 60´s cuando se diera el "boom" terminológico de la palabra "salsa" como definición de un género musical, por la colaboración de la famosa orquesta Fania All-Stars dirigida por el dominicano Johnny Pacheco quien junto al desaparecido abogado Jerry Masucci fundarían el importante sello salsero Fania Records.
+              «Salsa» significa ‘aderezo’ en español, popularmente se ha adoptado como una palabra asociada metafóricamente con el sabor, la alegría y la fuerza de la vida. Musicalmente se le identifica con una gran colección de subgéneros y ritmos fundamentalmente cubanos, adoptando matices y acentos distintos en diversas partes del mundo de habla hispana.
+              <mark>eL Merovingio Yahoo</mark>
+              </div><!--texto2-->
+            </div><!--textoImagen2-->
+            <div class="row" id="Comentario2">
+            <div class="col-xs-2" id="img-usuario">
+              <img src="img/Usuario-Icono.jpg" class="img-rounded" id="usuarioIcono"/>
+            </div>
+            <div class="col-xs-10">
+            <div class="form-group">
+              <label for="Nombre">Comentarios:</label>
+              <textarea name="comentario" ROWS="4" cols"25" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="button" name="boton" value="enviar" class="btn btn-default"></input>
+            </div>
+          </div>
+        </div><!--Comentario2-->
+      </div><!--seccion2-->
+    </div><!--ColumnIzquierdaContenido-->
+
+    <container id="ColumnaDerechaContenido" >
+        <div class="col-md-4 .hidden-md-down" id="columnaDerechaBusqueda">
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-success my-2 my-sm-0 glyphicon glyphicon-search" type="submit"></button>
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <section id="listaDefinicion">
+                <ul class="list-unstyled">
+                  <li>
+                  <div class="row">
+                  <button class="form-control btn-btn default" type="submit" id="button1">Orquesta</button>
+                </div>
+                </li>
+                <li>
+                <div class="row">
+                <button class="form-control btn-btn default" type="submit" id="button1">Salsa</button>
+                </div>
+              </li>
+              <li>
+                  <div class="row">
+                    <button class="form-control btn-btn default" type="submit" id="button1">Genero</button>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                  <button class="form-control btn-btn default" type="submit" id="button1">Musica</button>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <button class="form-control btn-btn default" type="submit" id="button1">Melodia</button>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <button class="form-control btn-btn default" type="submit" id="button1">Ritmo</button>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <button class="form-control btn-btn default" type="submit" id="button1">Compositor</button>
+                  </div>
+                </li>
+              </ul>
+
+              </section>
+
+            </form>
+          </div><!--columnaDerechaBusqueda-->
+        </div><!--Seccion2-->
+      </container>
+
+
+
+
+<!--
+    <nav class='navbar navbar-inverse navbar-fixed-top affix-top'></nav>
+    <div class='container-fluid'>
+      <div class='row'>
+
+      </div>
+      <div class='row movies-row '>
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+              <img src="img/cinema.jpg" width="50%">
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+          <div class='col-md-2 col-lg-2 movies-column text-center right-column'></div>
+          <div class='col-md-2 col-lg-2 movies-column text-center right-column'></div>
+      </div>
+
+      <div class='row'>
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 titulo-cartelera left-column'></div>
+        <div class='col-lg-4 col-md-4 titulo-cartelera right-column'></div>
+      </div>
+
+      <div class='row'>
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 movies-row left-column'>
+          <div class='row movies-row'>
+            <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4 movies-column text-center'></div>
+            <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4 movies-column text-center'></div>
+            <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4 movies-column text-center'></div>
+          </div>
+        </div>
+        <div class='col-lg-4 col-md-4 movies-row right-column'>
+          <div class='row movies-row'>
+            <div class='col-md-12 col-lg-12 movies-column text-center'></div>
+          </div>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-lg-6 col-md-6 titulo-cartelera right-column left-column'></div>
+        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 titulo-cartelera'></div>
+      </div>
+      <div class='row'>
+        <div class='col-lg-6 col-md-6 movies-row right-column left-column'></div>
+        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row'>
+          <div form='role'>
+            <fieldset>
+            <div class='form-group text-center'>
+              <legend class='user_data' class='input-element'>Datos personales
+              </legend>
+
+              <div class='nombre' id='nombre' name='nombre' >
+                <input type='text' placeholder=" Nombre Completo" class='bootstrap CSS form-control'>
+              </div>
+
+              <div class='nombre' id='email' name='email'>
+                <input type='text' placeholder="Correo electrónico" class='bootstrap CSS form-control'>
+              </div>
+
+              <div class='nombre' id='teléfono' name='teléfono'>
+                <input type='text' placeholder=" teléfono" class='bootstrap CSS form-control'>
+              </div>
+
+              <div class='nombre' id='Ciudad' name='Ciudad'>
+                <input type='text' placeholder="Ciudad" class='bootstrap CSS form-control'>
+              </div>
+            </div>
+
+            <div class='form-group text-center'>
+              <legend class='user_data'>Elige tus categorías favoritas</legend>
+              <div class='checkbox'>
+              <label for='Terror' class='label-class'>Terror</label>
+              <input type='checkbox' name='Terror' id='Terror'> </input>
+
+              <label for='Comedia' class='label-class'>Comedia</label>
+              <input type='checkbox' name='Comedia' id='Comedia'></input>
+
+              <label for='Suspenso' class='label-class'>Suspenso</label>
+              <input type='checkbox' name='Suspenso' id='Suspenso'></input>
+
+              <label for='Accion' class='label-class'>Acción</label>
+              <input type='checkbox' name='Accion' id='Accion'></input>
+
+              <label for='Infantil' class='label-class'>Infantil</label>
+              <input type='checkbox' name='Infantil' id='Infantil'></input>
+              </div>
+
+            </div>
+            <div class='text-center'>
+            <legend class='user_data'>¿Desea recibir correo de nuestro sitio?></legend>
+              <div class='radio'>
+                <input type='radio' name='SI' id='SI'></input>
+                <label for='si' class='label-class'>SI</label>
+                <input type='radio' name='NO' id='NO'></input>
+                <label for='no' class='label-class'>NO</label>
+            </div>
+            </div>
+
+            <div class='text-center'>
+
+              <input type='submit' class='btn btn-primary' class='form-control' class='btn-save'>
+
+            </div>
+
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
